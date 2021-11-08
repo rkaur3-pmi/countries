@@ -1,0 +1,33 @@
+{
+    "name": "friskals/countries",
+    "description": "Format number for Laravel Framework",
+    "type": "library",
+    "keywords": [
+        "format-currency",
+        "format-number",
+        "country"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Friska Sianturi",
+            "email": "friskasianturi23@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Friskals\\Countries\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Friskals\\Countries\\CountryServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}

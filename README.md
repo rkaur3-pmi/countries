@@ -1,22 +1,24 @@
 # Countries
-Format number for Laravel Framework
+Nominal and currency formatting for Laravel Framework
 
 ## Description
-This package will set the nominal and currency format of a number based on the country
+This package will set the nominal and currency format of a value based on the given 
+country
 
 ## How to Install
 - Install with composer
 ```bash
 composer require friskals/countries
 ```
-
-## Available Method
+## How to use
 - Format Currency
 ```php
-(new Friskals\Countries\Helper())->getCountry('ID')->format_currency(1000);// ex: the given country is ID with value 1000
+$country = Friskals\Countries\CountryLoader::country('ID'); // the given country is Indonesia(ID)
+$formatted_value = $country->format_currency(1000); //the value is 1000
 ```
 
 - Format Nominal
 ```php
-(new Friskals\Countries\Helper())->getCountry('ID')->format_nominal(1000);
+$country = Friskals\Countries\CountryLoader::country('ID'); 
+$formatted_value = $country->format_nominal(1000);
 ```

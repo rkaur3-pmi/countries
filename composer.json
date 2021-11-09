@@ -1,6 +1,6 @@
 {
     "name": "friskals/countries",
-    "description": "Format number for Laravel Framework",
+    "description": "Nominal and currency formatting for Laravel Framework",
     "type": "library",
     "keywords": [
         "format-currency",
@@ -25,9 +25,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Friskals\\Countries\\CountryServiceProvider"
+                "Friskals\\Countries\\Providers\\CountryServiceProvider"
             ]
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

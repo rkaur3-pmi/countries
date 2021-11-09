@@ -2,7 +2,7 @@
 
 namespace Friskals\Countries\Libraries;
 
-class Indonesia implements Country
+class ID implements Country
 {
     public function format_nominal($value)
     {

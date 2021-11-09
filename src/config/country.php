@@ -1,9 +1,7 @@
 <?php
 
-use Friskals\Countries\Libraries\Indonesia;
-
 return [
     'ID' => [
-        'class' => Indonesia::class,
-    ],
+        'class' => Friskals\Countries\Libraries\ID::class,
+    ]
 ];

@@ -1,6 +1,6 @@
 <?php
 
-namespace Friskals\Countries;
+namespace Friskals\Countries\Providers;
 
 use Friskals\Countries\Libraries\Country;
 use Illuminate\Support\ServiceProvider;
@@ -14,7 +14,7 @@ class CountryServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__ . '/config/country.php', 'country');
+        $this->mergeConfigFrom(__DIR__ . '/../config/country.php', 'country');
     }
 
     /**

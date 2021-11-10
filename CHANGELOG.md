@@ -1,5 +1,11 @@
 # Change Log
 
+## v2.0.1 (2021-11-10)
+
+### Changed
+- Use `round()` for Cambodia nominal format
+- Use `intval()` for Indonesia nominal format
+
 ## v2.0.0 (2021-11-09)
 
 ### Added

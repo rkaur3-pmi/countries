@@ -25,25 +25,21 @@ The default are set in `config/country.php`.
 ## Usage
 - Format Currency
 ```php
-$country = Friskals\Countries\CountryLoader::country('ID'); // the given country is Indonesia(ID)
-$formatted_value = $country->format_currency(1000); //the value is 1000
+$nominal_currency = Friskals\Countries\CountryLoader::country('ID')->format_currency(1000); 
 ```
 
 - Format Nominal
 ```php
-$country = Friskals\Countries\CountryLoader::country('ID'); 
-$formatted_value = $country->format_nominal(1000);
+$nominal = Friskals\Countries\CountryLoader::country('ID')->format_nominal(1000);
 ```
 
 - Validate Phone
 ```php
-$country = Friskals\Countries\CountryLoader::country('ID'); 
-$formatted_value = $country->validate_phone('+6208120812081');
+$is_validated = Friskals\Countries\CountryLoader::country('ID')->validate_phone('+6208120812081');
 ```
 
 - Transform Phone
 ```php
-$country = Friskals\Countries\CountryLoader::country('ID'); 
-$formatted_value = $country->transform_phone('+6208120812081');
+$phone = Friskals\Countries\CountryLoader::country('ID')->transform_phone('+6208120812081');
 ```
 

@@ -13,4 +13,9 @@ class ID implements Country
     {
         return 'Rp ' . number_format($value, 0, ',', '.');
     }
+
+    public function validate_phone($phone)
+    {
+        return preg_match('/^(\+62)[0-9]{9,13}$/', $phone);
+    }
 }

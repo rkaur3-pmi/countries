@@ -13,4 +13,9 @@ class KH implements Country
     {
         return '$ ' . number_format($value, 2, ',', '.');;
     }
+
+    public function validate_phone($phone)
+    {
+        return preg_match('/^(\+855)[0-9]{8,13}$/', $phone);
+    }
 }

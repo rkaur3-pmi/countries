@@ -18,4 +18,13 @@ class KH implements Country
     {
         return preg_match('/^(\+855)[0-9]{8,13}$/', $phone);
     }
+
+    public function transform_phone($phone)
+    {
+        if (starts_with($phone, '+855')) {
+            return (substr($phone, 4, 1) == '0' ? '+855' . substr($phone, 5) : $phone);
+        }
+
+        return $phone = (substr($phone, 3, 1) == '0' ? '+855' . substr($phone, 4) : '+' . $phone);
+    }
 }

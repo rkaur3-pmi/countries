@@ -1,9 +1,9 @@
 # Countries
-Nominal and currency formatting for Laravel Framework.
 
-## Description
-This package will set the nominal and currency format of a value based on the given 
+This package allow you 
+- Set the nominal and currency format of a value based on the given 
 country.
+- Validate and transform  phone number of a particular country.
 
 ## Instalation
 - Install with composer
@@ -34,3 +34,16 @@ $formatted_value = $country->format_currency(1000); //the value is 1000
 $country = Friskals\Countries\CountryLoader::country('ID'); 
 $formatted_value = $country->format_nominal(1000);
 ```
+
+- Validate phone
+```php
+$country = Friskals\Countries\CountryLoader::country('ID'); 
+$formatted_value = $country->validate_phone('+6208120812081');
+```
+
+- Transform Phone Number
+```php
+$country = Friskals\Countries\CountryLoader::country('ID'); 
+$formatted_value = $country->transform_phone('+6208120812081');
+```
+

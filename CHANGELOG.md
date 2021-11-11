@@ -1,5 +1,17 @@
 # Change Log
 
+## v2.1.2 (2021-11-11)
+
+### Added
+New methods regarding to phone number
+- `transform_phone()` 
+- `validate_phone()`
+
+## v2.0.2 (2021-11-10)
+
+### Changed
+- Update README.md
+
 ## v2.0.1 (2021-11-10)
 
 ### Changed

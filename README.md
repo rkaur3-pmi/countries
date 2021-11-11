@@ -35,13 +35,13 @@ $country = Friskals\Countries\CountryLoader::country('ID');
 $formatted_value = $country->format_nominal(1000);
 ```
 
-- Validate phone
+- Validate Phone
 ```php
 $country = Friskals\Countries\CountryLoader::country('ID'); 
 $formatted_value = $country->validate_phone('+6208120812081');
 ```
 
-- Transform Phone Number
+- Transform Phone
 ```php
 $country = Friskals\Countries\CountryLoader::country('ID'); 
 $formatted_value = $country->transform_phone('+6208120812081');

@@ -6,5 +6,8 @@ return [
     ],
     'KH' => [
         'class' => Friskals\Countries\Libraries\KH::class,
-    ]
+    ],
+    'PH' => [
+        'class' => Friskals\Countries\Libraries\ID::class,
+    ],
 ];

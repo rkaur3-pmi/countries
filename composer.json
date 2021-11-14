@@ -1,6 +1,6 @@
 {
     "name": "friskals/countries",
-    "description": "Nominal and currency formatting for Laravel Framework",
+    "description": "Nominal formatting and phone validation for Laravel Framework",
     "type": "library",
     "keywords": [
         "format-currency",

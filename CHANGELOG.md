@@ -1,6 +1,17 @@
 # Change Log
 
-## v2.1.2 (2021-11-11)
+## v2.1.2 (2021-11-14)
+
+### Fixed
+- Cambodia transform phone condition
+- Set ID as default country if the country code is not found in config
+
+## v2.1.1 (2021-11-12)
+
+### Added
+- Support EN with Indonesia validation
+
+## v2.1.0 (2021-11-11)
 
 ### Added
 New methods regarding to phone number

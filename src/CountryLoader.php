@@ -11,6 +11,10 @@ class CountryLoader
     {
         $country = config("country.{$country_code}.class");
         
+        if(!$country){
+            $country = config("country.ID.class");
+        }
+        
         App::bind(Country::class, $country);
 
         return App::make(Country::class);

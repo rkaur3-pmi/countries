@@ -1,6 +1,6 @@
 # Change Log
 
-## v2.1.3 (2021-11-25)
+## v2.2 (2021-11-25)
 
 ### Added
 - Support Philippine

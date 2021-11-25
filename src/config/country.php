@@ -10,4 +10,7 @@ return [
     'PH' => [
         'class' => Friskals\Countries\Libraries\PH::class,
     ],
+    'EN-PH' => [
+        'class' => Friskals\Countries\Libraries\ENPH::class,
+    ],
 ];

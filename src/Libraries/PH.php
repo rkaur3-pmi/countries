@@ -11,7 +11,7 @@ class PH implements Country
 
     public function format_currency($value)
     {
-        return '₱ ' . number_format($value, 2, ',', '.');;
+        return '₱' . number_format($value, 2, '.', ',');;
     }
 
     public function validate_phone($phone)

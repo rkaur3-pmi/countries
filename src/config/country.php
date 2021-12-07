@@ -8,9 +8,6 @@ return [
         'class' => Friskals\Countries\Libraries\KH::class,
     ],
     'PH' => [
-        'class' => Friskals\Countries\Libraries\ENPH::class,
-    ],
-    'EN-PH' => [
-        'class' => Friskals\Countries\Libraries\ENPH::class,
+        'class' => Friskals\Countries\Libraries\PH::class,
     ],
 ];

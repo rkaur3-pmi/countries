@@ -1,5 +1,15 @@
 # Change Log
 
+## v2.2.2 (2021-12-07)
+
+### Changed
+- Update config country PH
+
+## v2.2.1 (2021-12-07)
+
+### Changed
+- Update separator currency PH
+
 ## v2.2 (2021-11-25)
 
 ### Added
